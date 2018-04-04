@@ -20,7 +20,8 @@ int main(int argc, char **argv) {
   fprintf(stdout, "%s", ":: calling libb_hello()... [done]\n");
 
   fprintf(stdout, "%s", ":: bye.\n");
-  libb_goodbye()
+  libb_goodbye();
+  libb_howareyou();
   return 0;
 }
 

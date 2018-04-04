@@ -14,4 +14,8 @@ void libb_hello() {
 void libb_goodbye(){
     fprintf(stdout, "%s\n", "goodBye from libb");
 }
+
+void libb_howareyou(){
+    fprintf(stdout, "%s\n", "goodBye from libb");
+}
 /* EOF */
