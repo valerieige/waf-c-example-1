@@ -4,6 +4,10 @@
 #include "libb/libb.h"
 
 int main(int argc, char **argv) {
+
+  liba_greetings();
+
+
   fprintf(stdout, "%s", ":: welcome to [app]\n");
   fprintf(stdout, ":: number of args: %d\n", argc);
   fprintf(stdout, ":: args-pointer:   %p\n", argv);
